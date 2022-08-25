@@ -16,7 +16,7 @@ $font: 'Silkscreen', sans-serif;
   @return unquote($value)
 }
 
-$stars-shadows: multiple-box-shadow(700);
+$stars-shadows: multiple-box-shadow(50);
 
 * {
     margin: 0;
@@ -493,12 +493,11 @@ h2 {
 
 @keyframes eject {
     0% {
-        left: -4rem;
+        left: -20%;
     }
     100% {
-        left: calc(100% + 4rem);
+        left: 120%;
         -webkit-transform: rotate(360deg); 
-        transform: rotate(360deg); 
     } 
 }
 
