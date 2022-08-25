@@ -4,9 +4,9 @@ A personal webpage for the technical challenge for CSESOC Trainee 2022
 
 ## Contact
 
-[Instagram: @shinybuncis](https://www.instagram.com/shinybuncis/)
-[LinkedIn: Merry Rosalie](https://au.linkedin.com/in/merry-rosalie)
-[Discord: shinybuncis#6737]
+* [Instagram: @shinybuncis](https://www.instagram.com/shinybuncis/)
+* [LinkedIn: Merry Rosalie](https://au.linkedin.com/in/merry-rosalie)
+* [Discord: shinybuncis#6737]
 
 ## Acknowledgments
 
