@@ -10,6 +10,27 @@ window.onload = () => {
 	$('#bongo-cat').on('touchstart', pawsDown);
 	$('#bongo-cat').on('touchend', pawsUp);
 
+	$('.about-link').on("click", (element) => {
+		element.preventDefault();
+		$('html, body').animate({
+			scrollTop: $("#About").offset().top - 50
+		}, 750);
+	});
+	
+	$('.projects-link').on("click", (element) => {
+		element.preventDefault();
+		$('html, body').animate({
+			scrollTop: $("#Projects").offset().top - 50
+		}, 750);
+	});
+	
+	$('.contact-link').on("click", (element) => {
+		element.preventDefault();
+		$('html, body').animate({
+			scrollTop: $("#Contact").offset().top - 50
+		}, 750);
+	});
+
 	setInterval(() => {
 		let src = $('.avatar').attr("src");
 		let dict = {
