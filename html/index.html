@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <script src="../js/index.js"></script>
+    <title>Personal Webpage</title>
+</head>
+<body data-spy="scroll" data-target="#scroll-spy">
+    <!--Loading screen-->
+    <div class="loading-wrapper">
+        <div class="stars-parallax">
+            <div class="stars"></div>
+        </div>
+        <div class="progress-bar">
+            <span class="progress"></span>
+        </div>
+        <img class='amogus' src="../static/amogus.png">
+        <text class="loading-text">LOADING</text>
+    </div>
+    
+    <!--Main page-->
+    <section class="main-content">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #171738;">
+            <p class="navbar-brand">Navbar</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-pills mr-auto navbar-nav">
+                  <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <a class="nav-link" href="#About">About</a>
+                  </li>
+                  <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                  </li>
+                  <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+        <section id="Main">
+            <div class="main-title">
+                <h1 class="highlight">
+                    <strong>Very Epic Software Engineering Student</strong>
+                    <span><img src="../static/pepe_hacker.gif" style="width: 30px; vertical-align: bottom;"></span>
+                </h1>
+                <div class="description">
+                    <p>(not true)<br>also try to click the bongo cat maybe???</p>
+                </div>
+            </div>
+            <!--Bongo cat svg credit to https://codepen.io/carolineartz/pen/qBOEzQa-->
+            <div class="funni-bongo-cat paws-up">
+                <svg id='bongo-cat' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 785 410'>
+                    <g>
+                        <g class="head">
+                            <path id='text-target' d="M280.4,221l383.8,62.6a171.4,171.4,0,0,0-9.2-40.5,174,174,0,0,0-28.7-50.5,163.3,163.3,0,0,0,3.2-73.8c-11.6-1.9-42,14.2-44.5,17.5-19.6-24-88.5-52.7-153.7-48.1A78.8,78.8,0,0,0,398,67.1c-9.8,2.9-19,29.7-19.4,33.7a320,320,0,0,0-31.7,23.6c-14,11.8-28.9,24.4-42.5,44.3A173,173,0,0,0,280.4,221Z"></path>
+                            <path d="M396.6,178.6c.4.9,2.7,6.5,8.5,8.4s13.4-1.2,17.2-7.9c-.9,7.5,3.8,14.3,10.4,16a14.4,14.4,0,0,0,15-5.7"></path>
+                            <path d="M474,179.2a6.6,6.6,0,0,0-4.9,3.6,6,6,0,0,0,1.5,7.3,6,6,0,0,0,7.9-1c2.3-2.6,2-7,.2-8s-5.9,1.6-5.7,3.5,1.9,2.8,3.2,2.3,1.1-2.2,1.1-2.3"></path>
+                            <path d="M365.4,168.9c0,.3-.8,3.6,1.5,6a5.9,5.9,0,0,0,7.2,1.4,6.1,6.1,0,0,0,2.2-7.7c-1.5-3.1-5.7-4.5-7.3-3.2s-.8,6,1,6.6,3.3-.7,3.3-2.1-1.5-1.8-1.6-1.9"></path>
+                        </g>
+                        <g class="table">
+                            <polygon points='25.3 158.5 783.2 293 513 354.9 25.3 158.5'></polygon>
+                            <line class='table-base' x1='25.3' y1='158.5' x2='783.2' y2='293' fill='none' stroke='#8d00fc' stroke-miterlimit='10' stroke-width='4'></line>
+                        </g>
+                        <g class="laptop">
+                            <polygon class="laptop-base" points='103.2 263.6 258.9 219.3 636.5 294.4 452.1 339 103.2 263.6'></polygon>
+                            <g class="laptop-keyboard">
+                                <polygon points='369.6 265.6 255.3 244.3 255.5 243.5 264.7 241.9 380.9 262.3 380.8 263.1 369.6 265.6'></polygon>
+                                <polygon points='235.9 256.4 219.8 253.2 219.9 252.5 228.7 251 245.3 253.4 245.1 254.2 235.9 256.4'></polygon>
+                                <polygon points='473.1 303.7 248.4 258.9 248.6 258.1 257.7 256.6 486.2 300.4 486 301.3 473.1 303.7'></polygon>
+                                <polygon points='410.3 300.2 202.7 257.5 202.9 256.8 211.4 255.3 422.4 297.1 422.2 298 410.3 300.2'></polygon>
+                                <polygon points='448.5 308.1 427 303.7 427.3 302.8 439.2 301.4 461.2 304.9 461 305.8 448.5 308.1'></polygon>
+                                <polygon points='200.1 264.7 186 261.7 186.2 261 194.5 259.5 208.9 261.8 208.8 262.5 200.1 264.7'></polygon>
+                                <polygon points='221.1 269.1 206.6 266.1 206.8 265.3 215.4 263.9 230.3 266.2 230.1 267 221.1 269.1'></polygon>
+                                <polygon points='361.4 298.9 230 271 230.2 270.3 239.2 268.9 372.7 295.9 372.5 296.7 361.4 298.9'></polygon>
+                                <polygon points='442.8 279.2 383.7 268.2 383.9 267.3 395.1 265.7 455.4 275.9 455.2 276.7 442.8 279.2'></polygon>
+                                <polygon points='524.6 294.4 458.6 282.1 458.8 281.2 471.3 279.7 538.6 291 538.4 291.9 524.6 294.4'></polygon>
+                                <polygon points='424.7 312.4 374.6 301.7 374.8 300.9 385.9 299.5 437 309.3 436.8 310.2 424.7 312.4'></polygon>
+                                <polygon points='409.1 277.3 397.6 278.8 397.4 279.6 498.4 299.1 511.8 296.7 512 295.8 409.1 277.3'></polygon>
+                                <polygon points='394.2 274.5 394.4 273.6 246.7 246.5 237.7 248.1 237.5 248.8 382.8 276.8 394.2 274.5'></polygon>
+                            </g>
+                        </g>
+                        <g class="paw">
+                            <g class="up">
+                                <path d='M586.6,208.8c-.6-2.3-4.2-15.6-17.2-22.2-2.7-1.3-12.8-6.4-23.6-1.8s-14.6,16.5-14.8,18.4c-1.2,9-.7,18.4,2.4,26.1,2.4,6,7.5,17.2,9.7,20.2'></path>
+                                <g class="pads">
+                                    <path d='M561.4,194.9a2.7,2.7,0,0,1,3,.5c.4,1-1.4,2.4-2.6,2.2a1.5,1.5,0,0,1-1.1-1.3A1.2,1.2,0,0,1,561.4,194.9Z'></path>
+                                    <path d='M550.7,200.4c.4-.5,1.1-1.1,1.7-.8a2,2,0,0,1,.8,2.2c-.3,1.2-1.8,2-2.5,1.5S550.1,201.3,550.7,200.4Z'></path>
+                                    <path d='M541.1,211.1c.5-.4,2.7-.4,3.2.5s-.6,1.8-1.5,1.9S540.4,211.6,541.1,211.1Z'></path>
+                                    <path d='M560.6,209.2c2.3-.9,6.4,6.3,7.6,9s-5.3,4.5-7.4,6-5.1-6-5.9-8.3S557.9,210.4,560.6,209.2Z'></path>
+                                </g>
+                            </g>
+                            <path class='down' d='M534.1,231.4c-19.7,6-32.9,18.4-34.2,29.1a30.1,30.1,0,0,0,1.7,14.1,24.8,24.8,0,0,0,6.1,8.8c6,5.1,16.8,4,38-3.9a288.7,288.7,0,0,0,46.5-22.1'></path>
+                        </g>
+                        <polygon class="laptop-cover" points='103.2 263.6 452.1 339 360.8 12.4 2 2 103.2 263.6'></polygon>
+                    </g>
+                </svg>
+            </div>
+        </section>
+        <section id="About">
+            <h2>About</h2>
+            <div class="about-content">
+                <div class="avatar-section">
+                    <img class="avatar" src="../static/front.png">
+                    <h3>Merry Rosalie</h3>
+                    <p>★★★★☆</p>
+                    <p class="rarity">High on 1531 Copium</p>
+                    <q>I hate 1531</q>
+                </div>
+                <div class="biography-1">
+                    <h4>Age</h4>
+                    <p>18</p>
+                    <h4>Degree</h4>
+                    <p>Software Engineering</p>
+                    <h4>Pronouns</h4>
+                    <p>She/her</p>
+                    <h4>Nationality</h4>
+                    <p>Indonesia</p>
+                </div>
+                <div class="biography-2">
+                    <h4>Personality</h4>
+                    <p>ISTP-A</p>
+                    <h4>Year Of Study</h4>
+                    <p>First Year</p>
+                    <h4>Hobbies</h4>
+                    <p>Drawing, Design, Gaming</p>
+                    <h4>Fandoms</h4>
+                    <p>Art, Genshin, K-pop</p>
+                </div>
+            </div>
+        </section>
+        <section id="Projects">
+            <h2>Projects</h2>
+            <p>Some notable projects I am most proud of 𓁹‿𓁹</p>
+            <div class="project-list">
+                <div>
+                    <h4>CS50</h4>
+                    <p>Took CS50 for a while, and worked on several pogging problem sets with HTML, CSS, JS and Flask</p>
+                    <div class="images">
+                        <img src="../static/projects/wikipedia.png">
+                        <img src="../static/projects/finance.png">
+                        <img src="../static/projects/google.png">
+                    </div>
+                </div>
+                <div>
+                    <h4>CSESOC Annual Flagship Hackathon 2022</h4>
+                    <p>Worked on Counter Point which is a very cool media bias/fact checker TRUE OR TRUE?</p>
+                    <div class="images">
+                        <img src="../static/projects/hackathon.png">
+                    </div>
+                </div>
+                <div>
+                    <h4>Google UX/UI Design</h4>
+                    <p>Took the Google UX/UI Design course because I think UX/UI Design is very based and poggers</p>
+                    <div class="ux-ui-images">
+                        <img src="../static/projects/ui_design_1.png">
+                        <img src="../static/projects/ui_design_2.png">
+                        <img src="../static/projects/ui_design_3.png">
+                        <img src="../static/projects/ui_design_4.png">
+                    </div>
+                </div>
+                <div>
+                    <h3>Art Related Stuff</h3>
+                    <p>psh psh follow @shinybuncis on Instagram</p>
+                    <h4>Vtuber</h4>
+                    <p>I drew my own oc as a vtuber so I can get more simps and bitches (turns out to be unsuccessful sadge)</p>
+                    <video width="300px" height="auto" controls>
+                        <source src="../static/projects/vtuber.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h4>Youtaite</h4>
+                    <p>check out these song covers i managed to slayy</p>
+                    <iframe src="https://www.youtube.com/embed/fSM1hHRS3uk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/d9dKf2d43gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/MaFjsL6keqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/Yjd9LN9RwO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Also check out this pogging collab where I joined as one of the colorist (0:21-0:53)</p>
+                    <iframe src="https://www.youtube.com/embed/zB5Iwp7GO-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <div class="socials">
+                <div class="socials-instagram">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                    <p>@shinybuncis</p>
+                </div>
+                <div class="socials-discord">
+                    <i class="fa-brands fa-discord fa-2xl"></i>
+                    <p>shinybuncis#6737</p>
+                </div>
+                <div class="socials-linkedin">
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    <p>Merry Rosalie</p>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <p style="color: white;">Copyright © 2022 Merry Rosalie.</p>
+        </section>
+    </section>
+</body>
+</html>
