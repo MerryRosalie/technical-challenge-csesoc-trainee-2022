@@ -79,9 +79,8 @@ body {
     height: auto;
     overflow: hidden;
     position: absolute;
-    top: 41%;
+    top: 40%;
     left: -4rem;
-    animation: eject 5s linear;
     opacity: 1;
     z-index: -1;
     user-select: none;
@@ -497,7 +496,7 @@ h2 {
     }
     100% {
         left: 120%;
-        -webkit-transform: rotate(45deg); 
+        -webkit-transform: rotate(360deg); 
     } 
 }
 

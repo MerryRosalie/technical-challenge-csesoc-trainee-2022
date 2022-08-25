@@ -4,6 +4,7 @@ window.onload = () => {
 		$('.main-content').fadeIn("slow", () => $('.main-content').css("display", "block"))
 	}, 5000);
 	$('.progress').css("animation", "load 5s linear");
+	$('.amogus').css("animation", "eject 5s linear");
 
 	$('#bongo-cat').on('mousedown', pawsDown);
 	$('#bongo-cat').on('mouseup', pawsUp);
