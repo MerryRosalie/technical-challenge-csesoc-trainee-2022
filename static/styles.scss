@@ -16,7 +16,7 @@ $font: 'Silkscreen', sans-serif;
   @return unquote($value)
 }
 
-$stars-shadows: multiple-box-shadow(50);
+$stars-shadows: multiple-box-shadow(100);
 
 * {
     margin: 0;
@@ -75,8 +75,8 @@ body {
 }
 
 .amogus {
-    width: 4rem;
-    aspect-ratio: 3/4;
+    width: 64px;
+    height: auto;
     overflow: hidden;
     position: absolute;
     top: 41%;
