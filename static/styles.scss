@@ -423,7 +423,19 @@ h2 {
         margin-bottom: 2rem;
     }
     .socials {
-        & > div {
+        a {
+            text-decoration: none;
+            color: white;
+            & > div:hover {
+                transition: all .2s linear;
+                color: $scheme-light-purple;
+                border: 1px solid $scheme-light-purple;
+                p {
+                    color: $scheme-light-purple;
+                }
+            }
+        }
+        & > a > div {
             margin: 0 2rem;
             padding: 2rem;
             border-radius: 5%;
@@ -443,8 +455,8 @@ h2 {
         display: inline;
     }
     p {
-        color: white;
         margin: 0;
+        color: white;
     }
 }
 
